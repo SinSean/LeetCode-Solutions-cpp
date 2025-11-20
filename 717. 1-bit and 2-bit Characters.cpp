@@ -24,4 +24,7 @@ public:
 1的情況不用判斷後面是0還是1，因為題目規定最後一定會有0
 如果遇到0後，+1的i跟bits的size一樣大，那就是True(最後一個為0 [落單的0])
 其餘皆為false
+
+參考講解影片:
+https://www.youtube.com/watch?v=5coHWIG7BSI
 */
