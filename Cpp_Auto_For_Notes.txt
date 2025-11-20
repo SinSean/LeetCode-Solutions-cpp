@@ -1,0 +1,96 @@
+C++ Auto 與範圍 for 迴圈筆記
+1. auto
+
+auto 是 C++11 引入的自動型別推斷
+
+編譯器會根據初始化值自動推斷變數型別
+
+基本用法
+auto a = 5;       // int
+auto b = 3.14;    // double
+auto s = "hello"; // const char*
+
+常搭配引用與 const
+#include <vector>
+#include <iostream>
+using namespace std;
+
+vector<int> v = {1,2,3};
+
+// 複製
+for (auto x : v) { x += 1; }          
+
+// 參考（可修改原資料）
+for (auto& x : v) { x += 1; }         
+
+// const 參考（不可修改原資料）
+for (const auto& x : v) { cout << x << endl; }
+
+使用建議
+
+初學者先用明確型別（int, double, string…）
+
+熟悉型別系統後，對 STL 容器、範圍 for、模板函數可使用 auto
+
+auto ≠ 弱型別，型別仍固定
+
+2. 範圍 for 迴圈 (range-based for loop)
+
+C++11 新語法
+
+用於迭代容器或陣列的每個元素
+
+不需要索引 (i) 或判斷式
+
+範例
+#include <vector>
+#include <iostream>
+using namespace std;
+
+int main() {
+    vector<int> v = {1,2,3,4,5};
+
+    // 複製元素
+    for (auto x : v) {
+        cout << x << " ";
+    }
+    cout << endl;
+
+    // 參考元素（可修改原資料）
+    for (auto& x : v) {
+        x += 10;
+    }
+
+    // const 參考（不可修改）
+    for (const auto& x : v) {
+        cout << x << " ";
+    }
+    cout << endl;
+
+    // C-style array 也可用
+    int arr[5] = {1,2,3,4,5};
+    for (int a : arr) {
+        cout << a << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
+與傳統 for loop 對照
+用法	範例	優缺點
+傳統 for	for (int i=0;i<v.size();i++) cout << v[i];	可用索引，但寫法冗長，容易越界
+範圍 for (複製)	for (auto x:v) cout << x;	簡短易讀，但複製大型物件效率低
+範圍 for (參考)	for (auto& x:v) x+=1;	高效，可修改原資料
+範圍 for (const 參考)	for (const auto& x:v) cout<<x;	安全、高效，只讀資料
+3. 重點小結
+
+auto 讓編譯器自動推斷型別，簡化程式碼
+
+& 可避免複製，提高效率
+
+const 可以保護資料，避免誤修改
+
+範圍 for 迴圈簡短安全，適合讀取或修改容器元素
+
+初學者建議先熟悉明確型別，再慢慢用 auto
