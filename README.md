@@ -36,3 +36,5 @@ https://medium.com/@amber.fragments/%E6%BC%94%E7%AE%97%E6%B3%95-%E5%AD%B8%E7%BF%
 
 C++ auto:
 https://blog.gtwang.org/programming/cpp-auto-variable-tutorial/
+
+有的題目會跟數學有點關係，腦袋要靈活運用，還有邏輯能力並重
