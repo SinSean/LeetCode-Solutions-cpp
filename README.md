@@ -47,5 +47,7 @@ https://blog.gtwang.org/programming/cpp-auto-variable-tutorial/
 
 有的題目會跟數學有點關係，腦袋要靈活運用，還有邏輯能力並重
 
+[最大公因數](https://andyli.tw/gcd/)
+
 未解完:
 [2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question&envId=2025-12-23)
