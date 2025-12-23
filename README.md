@@ -30,6 +30,8 @@
 
 [258. Add Digits](https://leetcode.com/problems/add-digits/description/)
 
+[3512. Minimum Operations to Make Array Sum Divisible by K](https://leetcode.com/problems/minimum-operations-to-make-array-sum-divisible-by-k/description/)
+
 Greedy:
 https://medium.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98%E7%B3%BB%E5%88%97-greedy-algorithm-%E8%B2%AA%E5%A9%AA%E6%BC%94%E7%AE%97%E6%B3%95-236f509200de
 
@@ -42,3 +44,6 @@ C++ auto:
 https://blog.gtwang.org/programming/cpp-auto-variable-tutorial/
 
 有的題目會跟數學有點關係，腦袋要靈活運用，還有邏輯能力並重
+
+未解完:
+[2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question&envId=2025-12-23)
