@@ -50,6 +50,7 @@ https://blog.gtwang.org/programming/cpp-auto-variable-tutorial/
 有的題目會跟數學有點關係，腦袋要靈活運用，還有邏輯能力並重
 
 [最大公因數程式](https://andyli.tw/gcd/)
+
 [最大公因數輾轉相除法](https://www.youtube.com/watch?v=8PPQc16kK-c)
 
 未解完:
