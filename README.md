@@ -34,6 +34,8 @@
 
 [3110. Score of a String](https://leetcode.com/problems/score-of-a-string/description/)
 
+[2807. Insert Greatest Common Divisors in Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/description/)
+
 Greedy:
 https://medium.com/%E6%8A%80%E8%A1%93%E7%AD%86%E8%A8%98/%E6%BC%94%E7%AE%97%E6%B3%95%E7%AD%86%E8%A8%98%E7%B3%BB%E5%88%97-greedy-algorithm-%E8%B2%AA%E5%A9%AA%E6%BC%94%E7%AE%97%E6%B3%95-236f509200de
 
@@ -47,7 +49,8 @@ https://blog.gtwang.org/programming/cpp-auto-variable-tutorial/
 
 有的題目會跟數學有點關係，腦袋要靈活運用，還有邏輯能力並重
 
-[最大公因數](https://andyli.tw/gcd/)
+[最大公因數程式](https://andyli.tw/gcd/)
+[最大公因數輾轉相除法](https://www.youtube.com/watch?v=8PPQc16kK-c)
 
 未解完:
 [2054. Two Best Non-Overlapping Events](https://leetcode.com/problems/two-best-non-overlapping-events/description/?envType=daily-question&envId=2025-12-23)
