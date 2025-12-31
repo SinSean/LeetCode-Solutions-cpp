@@ -1,6 +1,7 @@
+
+C++暫停更新 目前改用Java
+
 記錄解leetcode
-
-
 
 [2154. Keep Multiplying Found Values by Two](https://leetcode.com/problems/keep-multiplying-found-values-by-two/?envType=daily-question&envId=2025-11-20)
 
